@@ -35,25 +35,25 @@ const Home = () => {
 
             <div className="relative flex flex-col min-h-screen items-center justify-center">
                 <div className="flex flex-col justify-center items-center">
-                    <p className='text-7xl font-inter font-bold uppercase'>Miguel Arciaga</p>
+                    <p className='text-3xl md:text-7xl font-inter font-bold uppercase'>Miguel Arciaga</p>
                     <p className='self-end text-accent'>Junior Web Developer</p>
                 </div>
 
                 <a href='#about' className="absolute flex items-center gap-2 bottom-20 left-20 cursor-pointer">
                     <div className='flex gap-2 items-center'>
-                        <p className='text-lg'>SCROLL DOWN</p>
+                        <p className='text-sm'>SCROLL DOWN</p>
                         <i className='bx bx-chevron-down text-xl animate-bounce'></i>
                     </div>
                 </a>
             </div>
 
             {/* SECTION 1 ABOUT ME */}
-            <div id='about' className="relative flex flex-col p-20 min-h-screen justify-between">
-                <div className='absolute flex flex-row gap-20 items-baseline top-20 left-20 text-white/20'>
+            <div id='about' className="relative flex flex-col p-5 sm:p-20 min-h-screen justify-between">
+                <div className='absolute flex flex-row gap-20 items-baseline top-20 left-5 sm:left-20 text-white/20'>
                     <p className='font-inter font-bold text-9xl'>01</p>
                 </div>
 
-                <div  className="flex flex-1 justify-center gap-20">
+                <div className="flex mt-[13em] sm:mt-0 flex-col sm:flex-row flex-1 justify-center gap-20">
                     <div className="flex flex-1 flex-col justify-center gap-5">
                         <p className='font-inter font-bold text-5xl'>About Me</p>
                         <p>Hello! I am <span className='font-bold text-justify '>Alberto Miguel Arciaga,</span> a 4th year Information Techonology student with specialization in Web and Mobile Applications from FEU Institute of Technology.</p>
@@ -73,10 +73,10 @@ const Home = () => {
             </div>
 
             {/* SECTION 2 TECHSTACK */}
-            <div className="relative flex flex-col p-20 min-h-screen justify-between">
-                <p className='absolute top-20 left-20 font-inter font-bold text-9xl text-white/20'>02</p>
+            <div className="relative flex flex-col p-5 sm:p-20 min-h-screen justify-between">
+                <p className='absolute top-20 left-5 sm:left-20 font-inter font-bold text-9xl text-white/20'>02</p>
 
-                <div className="flex flex-1 justify-center gap-20">
+                <div className="flex mt-[13em] sm:mt-0 flex-col sm:flex-row flex-1 justify-center gap-20">
                     <div className="flex flex-1 flex-col justify-center gap-5">
                     <p className='font-inter font-bold text-5xl'>Tech Stack</p>
                         <p className='text-justify'>I work with front-end technologies such as HTML, CSS, and JavaScript, as well as popular frameworks like ReactJS. I also use TailwindCSS to style the webpages. On the back-end, I utilize PHP and Laravel to build web applications. I use either MySQL or Firebase depending on the project's needs. With these tools, i am able to create modern and functional applications. </p>
@@ -101,13 +101,13 @@ const Home = () => {
             </div>
 
             {/* SECTION 3 PROJECTS */}
-            <div className="relative flex flex-col p-20 min-h-screen justify-between">
-                <p className='absolute top-20 left-20 font-inter font-bold text-9xl text-white/20'>03</p>
+            <div className="relative flex flex-col p-5 sm:p-20 min-h-screen justify-between">
+                <p className='absolute top-20 left-5 sm:left-20 font-inter font-bold text-9xl text-white/20'>03</p>
 
-                <div className="flex min-h-screen flex-1 justify-center">
+                <div className="flex mt-[13em] sm:mt-0 py-20 sm:py-0 min-h-fit sm:min-h-screen flex-1 justify-center">
                     <div className='flex flex-col items-center justify-center'>
-                        <p className='font-inter font-bold text-9xl'>Projects</p>
-                        <p className='self-start'>Here are some of my projects.</p>
+                        <p className='font-inter font-bold text-6xl sm:text-9xl'>Projects</p>
+                        <p className='self-start text-accent'>Here are some of my projects.</p>
                     </div>
                 </div>
 

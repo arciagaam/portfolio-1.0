@@ -2,12 +2,12 @@ import React from 'react'
 
 const ProjectItem = ({ type, title, roles, description, techStack, images }) => {
     return (
-        <div className="grid grid-cols-2 gap-x-20">
-            <div className="flex flex-col items-start sticky top-0 h-fit">
-                <div className="flex flex-col py-10 gap-5">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-20">
+            <div className="flex flex-col items-start sticky top-0 h-fit bg-primary z-10">
+                <div className="flex flex-col py-10 gap-5 ">
                     <p className='text-accent'>{type}</p>
 
-                    <div className="flex flex-col gap-20">
+                    <div className="flex flex-col gap-20 ">
                         <div className="flex flex-col gap-2">
                             <p className='text-5xl font-bold font-inter'>{title}</p>
                             <div className="flex flex-row flex-wrap gap-4">
