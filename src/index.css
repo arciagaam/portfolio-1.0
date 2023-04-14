@@ -5,5 +5,10 @@
 
 * {
     scroll-behavior: smooth;
+    overflow-x: hidden;
     /* cursor: none; */
+}
+
+html {
+    background-color: "#0d0d0d";
 }

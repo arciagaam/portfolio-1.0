@@ -2,8 +2,8 @@ import React from 'react'
 
 const ProjectItem = ({ type, title, roles, description, techStack, images }) => {
     return (
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-20">
-            <div className="flex flex-col items-start sticky top-0 h-fit bg-primary z-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-x-20">
+            <div className="flex flex-col items-start relative md:sticky md:top-0 h-fit bg-primary z-10">
                 <div className="flex flex-col py-10 gap-5 ">
                     <p className='text-accent'>{type}</p>
 
@@ -33,8 +33,8 @@ const ProjectItem = ({ type, title, roles, description, techStack, images }) => 
 
             <div className="flex-1">
                 {images.map((image, index) => (
-                    <div key={index} className="relative flex h-[50vh] ">
-                        <div className="flex rounded-sm h-fit w-fit overflow-hidden">
+                    <div key={index} className="relative flex h-fit md:h-[50vh] ">
+                        <div className="flex rounded-sm h-fit w-fit overflow-hidden my-2 md:my-0">
                             <img className='object-contain' src={`images/projects/${image}`} alt="" />
                         </div>
                     </div>
